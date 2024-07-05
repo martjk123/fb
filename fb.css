@@ -1,0 +1,135 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    height:80vh;
+    text-align: center;
+    background-color: #9fa3c346;
+}
+
+.mainContainer{
+    display:flex;
+    align-items:center;
+
+    @media (max-width:800px){
+        flex-direction: column;
+        }
+}
+
+#fb{
+    color:rgb(98, 98, 235);
+    font-size:2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    
+    @media (max-width:400px){
+        font-size:3em;
+        }
+}
+
+.container1{
+    margin-right:100px;
+
+    @media (max-width:800px){
+        margin-top:100px;
+        margin-right:0;
+        }
+}
+
+.container2{
+    background-color:rgb(255, 255, 255);
+    min-height:280px;
+    min-width:280px;
+    border-radius:10px;
+    box-shadow:2px 2px 10px rgb(125, 121, 121);
+
+    @media (max-width:800px){
+        margin-top:30px;
+        }
+}
+
+#inputmail{
+margin-top:20px;
+font-size:.8em;
+padding:10px;
+padding-right:50px;
+border-radius:5px;
+border:1.5px solid rgb(190, 187, 187);
+margin-bottom:10px;
+outline: none;
+  transition: border-color 0.2s ease;
+}
+#inputmail:focus {
+    border-color: #007bff; /* Change to your desired color */
+  }
+
+#password{
+    font-size:.8em;
+    padding:10px;
+    padding-right:50px;
+    border-radius:5px;
+    border:1.5px solid rgb(190, 187, 187);
+    margin-bottom:10px;
+    outline: none;
+  transition: border-color 0.2s ease;
+}
+#password:focus {
+    border-color: #007bff; /* Change to your desired color */
+  }
+
+#login{
+    font-size:.8em;
+    background-color:rgb(66, 66, 250);
+    color:white;
+    border:none;
+    padding:10px;
+    padding-right:95px;
+    padding-left:96px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+
+#forgot{
+    border:none;
+    color:blue;
+    font-size:.7em;
+    background-color:rgb(255, 255, 255);
+    margin-bottom:10px;
+}
+
+#line{
+    position:relative;
+    top:-15px;
+    color:rgb(210, 210, 210);
+    font-weight:bold;
+}
+
+#createAcc{
+    margin-top:10px;
+    padding:12px;
+    font-size:.7em;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:rgb(21, 169, 21);
+    color:white;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+}
+
+#labelinfo{
+    margin-left:20px;
+
+    @media (max-width:800px){
+        margin-left:-50px;
+        }
+}
+
+#info{
+    margin-left:-43px;
+}
+
+#divlabel{
+    margin-left:50px;
+    margin-top:10px;
+}
